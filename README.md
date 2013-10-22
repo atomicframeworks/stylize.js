@@ -5,7 +5,7 @@ Append a new style block to the head containing the selectors and their associat
 1. Include the source script in your html <br>
 This script will create the addStyles function that can be used to add new styles to the document head.
 ```html
-<script src="/js/addStyles.js"></script>
+<script src="addStyles.js"></script>
 ```
 
 ## Requirements
