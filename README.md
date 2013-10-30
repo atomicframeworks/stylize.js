@@ -15,8 +15,7 @@ addStyles.js requires jQuery to prevent cross browser issues ( mainly IE 6-7 )
 Call addStyles(styleObj) to create a new style block containing the selectors and declarations. <br>
    
 #### Example
-The example callback will run 10% of the time the function is run.
-Once the callback is run a cookie is stored so that it does not run again.
+
 ```js
 
 styleObj = {
