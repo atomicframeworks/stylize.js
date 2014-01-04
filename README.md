@@ -8,9 +8,6 @@ This script will create the addStyles function that can be used to append new st
 <script src="addStyles.js"></script>
 ```
 
-## Requirements
-addStyles.js requires jQuery to prevent cross browser issues ( mainly IE 6-7 )
-
 ## Usage
 Call addStyles(styleObj) to create a new style block containing the selectors and declarations. <br>
    
