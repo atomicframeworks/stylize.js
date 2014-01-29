@@ -17,7 +17,7 @@ This script will create the stylize function that can be used to append new styl
 #### Adding styles
 Call stylize(styleObj) to add styles containing the selectors and declarations. <br>
    
-#### Example
+##### Example
 ```js
 
 styleObj = {
@@ -36,7 +36,7 @@ stylize(styleObj);
 #### Removing properties
 Set the property to null or undefined to remove it from the style declaration.
 
-#### Example
+##### Example
 ```js
 
 stylize({
@@ -51,7 +51,7 @@ stylize({
 #### Removing an ruleset by selector
 To remove all properties of a ruleset for a specific selector pass null or undefined for the style object.
 
-#### Example
+##### Example
 ```js
 
 stylize({
