@@ -34,7 +34,7 @@ stylize(styleObj);
 ```
 
 #### Removing properties
-Set the property to null or undefined to remove the property from the style declaration
+Set the property to null or undefined to remove it from the style declaration.
 
 #### Example
 ```js
@@ -45,9 +45,11 @@ stylize({
     }
 });
 
+```
+
 
 #### Removing an ruleset by selector
-To remove all properties of a ruleset for a specific selector just pass null or undefined for the style object
+To remove all properties of a ruleset for a specific selector pass null or undefined for the style object.
 
 #### Example
 ```js
@@ -55,6 +57,8 @@ To remove all properties of a ruleset for a specific selector just pass null or 
 stylize({
 	'*': null
 });
+
+```
 
 
 ## License 
