@@ -6,7 +6,7 @@ Persistence - When using stylize.js styles are applied to elements exactly as if
 Performace - There are significant performance gains when applying rules to multiple elements - [http://jsperf.com/stylize-vs-jquery](http://jsperf.com/stylize-vs-jquery)
 
 ## Installation
-1. Include the source script in your html. <br>
+1. Include the source script in your html.  No other requirements to start using stylize.js! <br>
 ```html
 <script src="stylize.js"></script>
 ```
@@ -30,7 +30,6 @@ styleObj = {
 };
 
 stylize(styleObj);
-
 ```
 
 #### Removing properties
@@ -44,7 +43,6 @@ stylize({
         outline: null
     }
 });
-
 ```
 
 
@@ -57,7 +55,6 @@ To remove all properties of a ruleset for a specific selector pass null or undef
 stylize({
 	'*': null
 });
-
 ```
 
 
