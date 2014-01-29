@@ -2,7 +2,7 @@
 Dynamically add or remove CSS rules to the document <br>
 
 ## Use cases
-Persistence - When using stylize.js styles are applied to elements exactly as if you had written and included a style sheet with the provided rules! Conversly adding styles to the DOM via jQuery .css() only adds them to currently existing elements. <br>
+Persistence - When using stylize.js styles are applied to elements exactly as if you had written and included a style sheet with the provided rules! Conversly adding styles to the DOM via jQuery .css() only applies the styles to existing elements. <br> <br>
 Performace - There are significant performance gains when applying rules to multiple elements - [http://jsperf.com/stylize-vs-jquery](http://jsperf.com/stylize-vs-jquery)
 
 ## Installation
