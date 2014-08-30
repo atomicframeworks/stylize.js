@@ -46,7 +46,7 @@ stylize({
 ```
 
 
-#### Removing an ruleset by selector
+#### Removing a ruleset by selector
 To remove all properties of a ruleset for a specific selector pass null or undefined for the style object.
 
 ##### Example
